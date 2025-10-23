@@ -1,0 +1,78 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>lists and tables example </title>
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:20px;
+}
+table{
+border-collapse:collapse;
+width:50%;
+margin-top:10px;
+}
+table,th,td{
+border:1px solid black;
+}
+th{
+background-color:#4CAF50;
+color:white;
+}
+td{
+background-color:#f2f2f2;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h2>ordered list</h2>
+<ol>
+<li>Apple</li>
+<li>Bannana</li>
+<licherry</li>
+</ol>
+<h2>unordered list<h2>
+<ul>
+<li>dog</li>
+<li>cat</li>
+<li>parrot</li>
+</ul>
+<h2>definition list</h2>
+<dl>
+<dt>HTML</dt>
+<dd>Hyper Text Markup Language</dd>
+<dt>CSS</dt>
+
+<dd>cascading style sheets</dd>
+</dl>
+<h2>sample table</h2>
+<table>
+<tr>
+<th>name</th>
+<th>age</th>
+<th>city</th>
+</tr>
+<tr>
+<td>john</td>
+<td>25</td>
+<td>newyork</td>
+</tr>
+<tr>
+<td>sara</td>
+<td>30</td>
+<td>london</td>
+</tr>
+<tr>
+<td>alex</td>
+<td>28</td>
+<td>paris</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
