@@ -1,39 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My First Web Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namma Kudla</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to Web Development Basics!</h1>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#/">Namma Kudla</a>
+      <nav class="main-nav">
+        <a href="#/">Home</a>
+        <a href="#/posts">Blog</a>
+        <a href="#/destinations">Destinations</a>
+        <a href="#/guides">Guides</a>
+        <a href="#/about">About</a>
+        <a href="#/contact">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-btn">☰</button>
+    </div>
   </header>
-  <nav>
-    <a href="#about">About</a> | <a href="#contact">Contact</a>
-  </nav>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I am learning web development.</p>
-    <img src="anime.jpeg" alt="sample image" width="150">
-  </section>
-  <section>
-    <h2>My Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Problem Solving</li>
-    </ul>
-  </section>
-  <footer>
-    <p>Contact: student@example.com</p>
+
+  <main id="app" class="container">
+    <!-- app content injected by app.js -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Namma Kudla — Travel blog for Kudla lovers</p>
+    </div>
   </footer>
+
+  <script src="assets/js/posts.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
-</html>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+</html>
