@@ -1,0 +1,103 @@
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+
+        <h2>Get in Touch</h2>
+        <p class="contact-intro">
+            I’m always open to learning opportunities, collaborations,
+            or a simple conversation.
+        </p>
+
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p>vaishnavi@email.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Phone</h3>
+                <p>+91 XXXXXXXXXX</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Location</h3>
+                <p>India</p>
+            </div>
+
+        </div>
+
+        <button class="contact-btn" onclick="sayHello()">Say Hello 👋</button>
+
+    </div>
+</section>
+<style>
+    .contact-section {
+    padding: 80px 20px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2.2rem;
+    color: #7b5cff;
+    margin-bottom: 10px;
+}
+
+.contact-intro {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+
+/* Contact Cards */
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.contact-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+}
+
+.contact-card h3 {
+    color: #5f45d8;
+    margin-bottom: 8px;
+}
+
+.contact-card p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Button */
+.contact-btn {
+    padding: 12px 30px;
+    background: #7b5cff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #5f45d8;
+}
+
+</style>

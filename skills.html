@@ -1,0 +1,91 @@
+<section class="skills-section" id="skills">
+    <div class="skills-container">
+
+        <h2>My Skills</h2>
+        <p class="skills-intro">
+            This page speaks out about my skills that I have aquired over time.
+        </p>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>C, Java</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Computer Basics</h3>
+                <p>Data Structures, OOP Concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Emerging Tech</h3>
+                <p>AI Fundamentals, Prompt Engineering</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<style>
+    .skills-section {
+    padding: 80px 20px;
+}
+
+.skills-container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills-container h2 {
+    font-size: 2.2rem;
+    color: #7b5cff;
+    margin-bottom: 10px;
+}
+
+.skills-intro {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+}
+
+/* Grid Layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+/* Skill Cards */
+.skill-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.skill-card h3 {
+    color: #5f45d8;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.skill-card p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+</style>
